@@ -1,0 +1,47 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET Core Launch (SignalBooster)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/SignalBooster/bin/Debug/net8.0/SignalBooster.dll",
+      "args": ["physician_note1.txt"],
+      "cwd": "${workspaceFolder}/SignalBooster",
+      "stopAtEntry": false,
+      "console": "internalConsole",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    {
+      "name": ".NET Core Launch (SignalBooster - JSON Input)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/SignalBooster/bin/Debug/net8.0/SignalBooster.dll",
+      "args": ["physician_note2.txt"],
+      "cwd": "${workspaceFolder}/SignalBooster",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": ".NET Core Launch (SignalBooster - Custom Args)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/SignalBooster/bin/Debug/net8.0/SignalBooster.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/SignalBooster",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach"
+    }
+  ]
+}
+
