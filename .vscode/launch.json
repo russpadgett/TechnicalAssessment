@@ -32,10 +32,11 @@
       "request": "launch",
       "preLaunchTask": "build",
       "program": "${workspaceFolder}/SignalBooster/bin/Debug/net8.0/SignalBooster.dll",
-      "args": [],
+      "args": ["physician_note.txt", "https://custom-api.example.com/endpoint"],
       "cwd": "${workspaceFolder}/SignalBooster",
       "stopAtEntry": false,
-      "console": "internalConsole"
+      "console": "internalConsole",
+      "comment": "Example custom args: [inputFile, apiEndpoint]. Modify args array to test different files/endpoints."
     },
     {
       "name": ".NET Core Attach",
